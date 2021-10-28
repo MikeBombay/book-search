@@ -14,8 +14,8 @@ export const GET_ME = gql`
         authors
         title
         description
-        image
         link
+        image
       }
     }
   }

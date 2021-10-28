@@ -14,7 +14,7 @@ type User{
     username: String
     email: String
     bookCount: Int
-    savedBooks: [Book]
+    savedBook: [Book]
 }
 type Auth {
     token: ID!
@@ -39,6 +39,5 @@ type Auth {
     addUser(username: String!, email: String!, password: String!): Auth
     saveBook(bookData: BookInput!): User
     removeBook(bookId: ID!): User
-  }
-`;
+  }`;
 module.exports = typeDefs; 

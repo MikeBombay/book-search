@@ -37,8 +37,8 @@ export const SAVE_BOOK = gql`
         authors
         title
         description
-        image
         link
+        image
       }
     }
   }
