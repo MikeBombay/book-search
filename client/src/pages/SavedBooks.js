@@ -65,7 +65,7 @@ const SavedBooks = () => {
                   <p className='small'>Authors: {book.authors}</p>
                   <Card.Text>{book.description}</Card.Text>
                   <a href={book.link} target="_blank" rel="noopener noreferrer">
-                    More info
+                    See a preview of this book
                   </a>
                   <Button
                     className='btn-block btn-danger'
