@@ -10,3 +10,5 @@ Technologies Used: MongoDB
 Express.js
 React.js
 Node.js
+
+Deployed App: https://radiant-basin-50163.herokuapp.com/
